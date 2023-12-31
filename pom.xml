@@ -16,6 +16,8 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<com.graphql-java.version>5.0.2</com.graphql-java.version>
+		<com.graphql-java.groupId>com.graphql-java</com.graphql-java.groupId>
 	</properties>
 
 	<dependencies>
@@ -69,19 +71,19 @@
 
 		<!-- GraphQL -->
 		<dependency>
-			<groupId>com.graphql-java</groupId>
+			<groupId>${com.graphql-java.groupId}</groupId>
 			<artifactId>graphql-java-tools</artifactId>
 			<version>5.2.4</version>
 		</dependency>
 		<dependency>
-			<groupId>com.graphql-java</groupId>
+			<groupId>${com.graphql-java.groupId}</groupId>
 			<artifactId>graphql-spring-boot-starter</artifactId>
-			<version>5.0.2</version>
+			<version>${com.graphql-java.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.graphql-java</groupId>
+			<groupId>${com.graphql-java.groupId}</groupId>
 			<artifactId>graphql-spring-boot-test</artifactId>
-			<version>5.0.2</version>
+			<version>${com.graphql-java.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.graphql-java</groupId>
